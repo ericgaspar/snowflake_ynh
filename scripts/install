@@ -24,7 +24,7 @@ pushd $install_dir/proxy
 	ynh_hide_warnings ynh_exec_as_app CGO_ENABLED=0 go build -o $install_dir/
 popd
 
-chmod +x "$install_dir/snowflacke"
+#chmod +x "$install_dir/snowflacke"
 
 #=================================================
 # APP INITIAL CONFIGURATION
