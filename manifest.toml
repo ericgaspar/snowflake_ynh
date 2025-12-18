@@ -58,6 +58,7 @@ ram.runtime = "50M"
     main.url = "/"
 
     [resources.ports]
+    main.default = 4444
 
     [resources.go]
     version = "1.22"
